@@ -18,9 +18,15 @@
 
   &--round {
     @extend .btn;
-    border-radius: 1.25rem;
+    border-radius: 1.875rem;
   }
 
+  &--xsmall {
+    height: 2.5rem;
+    // width: 100px;
+    width: 8rem;
+    font-size: 0.75rem;
+  }
   &--small {
     width: 133px;
     white-space: nowrap;
