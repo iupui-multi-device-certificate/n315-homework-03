@@ -16,9 +16,7 @@
       .card {
         margin-bottom: 1rem;
         border-radius: $border-radius;
-        background-color: $brand-light;
         display: flex;
-        // font-size: 0.65rem;
         font-size: 0.8rem;
 
         .image-holder {
@@ -47,6 +45,7 @@
         }
 
         .card-body {
+          background-color: $brand-light;
           width: 150px;
           height: 200px;
           border-radius: $border-radius-lg;

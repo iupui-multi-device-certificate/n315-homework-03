@@ -1,6 +1,4 @@
 .btn {
-  background-color: $brand-primary;
-
   //align text in button w/o changing size of button:
   // https://stackoverflow.com/questions/13217797/how-to-align-the-text-middle-of-button
   display: flex;
@@ -12,8 +10,10 @@
   box-shadow: $shadow;
 
   text-decoration: none;
-  color: $brand-light;
   text-transform: uppercase;
+
+  color: $brand-light;
+  background-color: $brand-secondary;
   // font-size: $font-size--15;
 
   &--round {
