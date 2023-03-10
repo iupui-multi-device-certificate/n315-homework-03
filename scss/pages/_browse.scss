@@ -70,3 +70,21 @@
     }
   }
 }
+
+@media only screen and (max-width: $breakpoint-nav) {
+  //since nested above, need to nest here
+  //both could be refactored to be flatter
+  .gallery {
+    .cards {
+      .card-holder {
+        .card {
+          .image-holder {
+            .btn-overlay {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

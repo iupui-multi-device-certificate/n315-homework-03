@@ -298,3 +298,9 @@ footer {
   display: flex;
   gap: 0.5rem;
 }
+
+@media only screen and (max-width: 960px) {
+  .gallery .cards .card-holder .card .image-holder .btn-overlay {
+    display: block;
+  }
+}
