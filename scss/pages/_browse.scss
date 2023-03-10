@@ -71,7 +71,7 @@
   }
 }
 
-@media only screen and (max-width: $breakpoint-nav) {
+@media only screen and (max-width: $breakpoint-mobile) {
   //since nested above, need to nest here
   //both could be refactored to be flatter
   .gallery {
