@@ -2,7 +2,7 @@ import { quotes } from "./models/model.js";
 
 import { homeView, browseView } from "./views/view.js";
 
-const titleBase = "Quotes";
+const titleBase = "Wisdom Patches";
 
 const routes = {
   home: homeView(),
