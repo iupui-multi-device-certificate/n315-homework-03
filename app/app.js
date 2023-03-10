@@ -40,7 +40,8 @@ function initListeners() {
   });
 
   $(".btn").click(function (e) {
-    console.log("id of button clicked: ", e.currentTarget.id);
+    // console.log("id of button clicked: ", e.currentTarget.id);s
+    alert("id of button clicked: " + e.currentTarget.id);
   });
 }
 $(document).ready(function () {
