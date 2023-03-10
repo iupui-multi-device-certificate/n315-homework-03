@@ -1,3 +1,7 @@
+//? SEMANTIC - should these be buttons or anchor tags?
+//https://ux.iu.edu/writings/buttons-vs-links-basic/
+//https://uxmovement.com/buttons/when-to-use-a-button-or-link/
+
 const renderQuote = (quote) => `
     <div class="card-holder">  
       <figure class="card">
