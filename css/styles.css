@@ -275,11 +275,14 @@ footer {
   width: 200px;
 }
 .gallery .cards .card-holder .card .image-holder .btn-overlay {
-  display: block;
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.gallery .cards .card-holder .card .image-holder:hover .btn-overlay {
+  display: block;
 }
 .gallery .cards .card-holder .card .card-body {
   width: 150px;

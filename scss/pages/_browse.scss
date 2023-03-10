@@ -35,11 +35,15 @@
           //https://www.w3schools.com/howto/howto_css_image_text.asp
           .btn-overlay {
             //take no chances since button is inline by default
-            display: block;
+            // display: block;
+            display: none;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+          }
+          &:hover .btn-overlay {
+            display: block;
           }
         }
 
