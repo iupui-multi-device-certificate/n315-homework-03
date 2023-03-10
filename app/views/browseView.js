@@ -7,10 +7,10 @@ const renderQuote = (quote) => `
       <figure class="card">
         <div class="image-holder">
           <img src="./images/quotes/quote${quote.id}.jpg" alt="${quote.author}" />
-          <button class="btn btn--xsmall btn--round btn-overlay">View</button>
+          <button class="btn btn--xsmall btn--round btn-overlay" id="viewButton">View</button>
           <div class="button-holder">
-            <button class="btn btn--xsmall btn--round">Edit</button>
-            <button class="btn btn--xsmall btn--round">Delete</button>        
+            <button class="btn btn--xsmall btn--round" id="editButton">Edit</button>
+            <button class="btn btn--xsmall btn--round" id="deleteButton">Delete</button>        
           </div>
         </div>
         <figcaption class="card-body">

@@ -38,6 +38,10 @@ function initListeners() {
   $(".nav-link").click(function (e) {
     toggleMobileMenu();
   });
+
+  $(".btn").click(function (e) {
+    console.log("id of button clicked: ", e.currentTarget.id);
+  });
 }
 $(document).ready(function () {
   initListeners();
