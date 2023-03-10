@@ -16,16 +16,16 @@
       .card {
         margin-bottom: 1rem;
         border-radius: $border-radius;
-        background-color: white;
+        background-color: $brand-light;
         display: flex;
-        gap: $spacing;
         font-size: 0.65rem;
 
         .image-holder {
           position: relative;
+          height: 200px;
 
           img {
-            border-radius: $border-radius;
+            border-radius: $border-radius-lg;
             height: 200px;
             width: 200px;
           }
@@ -48,7 +48,7 @@
         .card-body {
           width: 150px;
           height: 200px;
-          border-radius: $border-radius;
+          border-radius: $border-radius-lg;
           padding: $spacing;
           display: flex;
           flex-direction: column;
