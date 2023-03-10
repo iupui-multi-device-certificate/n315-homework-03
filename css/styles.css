@@ -262,7 +262,6 @@ footer {
 }
 .gallery .cards .card-holder .card .image-holder {
   position: relative;
-  height: 200px;
 }
 .gallery .cards .card-holder .card .image-holder img {
   border-radius: 1.875rem;
@@ -276,8 +275,15 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.gallery .cards .card-holder .card .image-holder .button-holder {
+  display: none;
+  gap: 0.5rem;
+}
 .gallery .cards .card-holder .card .image-holder:hover .btn-overlay {
   display: block;
+}
+.gallery .cards .card-holder .card .image-holder:hover .button-holder {
+  display: flex;
 }
 .gallery .cards .card-holder .card .card-body {
   background-color: #fff;
@@ -302,13 +308,12 @@ footer {
   white-space: normal;
   word-wrap: break-word;
 }
-.gallery .cards .card-holder .button-holder {
-  display: flex;
-  gap: 0.5rem;
-}
 
 @media only screen and (max-width: 960px) {
   .gallery .cards .card-holder .card .image-holder .btn-overlay {
     display: block;
+  }
+  .gallery .cards .card-holder .card .image-holder .button-holder {
+    display: flex;
   }
 }

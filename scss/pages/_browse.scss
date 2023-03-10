@@ -21,7 +21,6 @@
 
         .image-holder {
           position: relative;
-          height: 200px;
 
           img {
             border-radius: $border-radius-lg;
@@ -39,8 +38,18 @@
             left: 50%;
             transform: translate(-50%, -50%);
           }
+
+          .button-holder {
+            display: none;
+            gap: 0.5rem;
+          }
+
           &:hover .btn-overlay {
             display: block;
+          }
+
+          &:hover .button-holder {
+            display: flex;
           }
         }
 
@@ -74,11 +83,6 @@
           }
         }
       }
-
-      .button-holder {
-        display: flex;
-        gap: 0.5rem;
-      }
     }
   }
 }
@@ -93,6 +97,10 @@
           .image-holder {
             .btn-overlay {
               display: block;
+            }
+
+            .button-holder {
+              display: flex;
             }
           }
         }
