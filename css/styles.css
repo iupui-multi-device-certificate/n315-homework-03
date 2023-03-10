@@ -56,7 +56,7 @@ body {
 }
 
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: linear-gradient(rgba(250, 128, 114, 0.3), rgba(250, 128, 114, 0.3)), url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,16 +72,15 @@ body {
 }
 .hero .hero-cta {
   text-align: center;
+  color: #fff;
 }
 .hero .hero-cta h1 {
-  color: #fff;
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 .hero .hero-cta p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-style: italic;
-  color: #fa8072;
 }
 
 .btn, .btn--round {
