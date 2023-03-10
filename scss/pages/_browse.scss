@@ -18,7 +18,8 @@
         border-radius: $border-radius;
         background-color: $brand-light;
         display: flex;
-        font-size: 0.65rem;
+        // font-size: 0.65rem;
+        font-size: 0.8rem;
 
         .image-holder {
           position: relative;
@@ -58,6 +59,19 @@
 
           .card-title {
             color: $brand-primary;
+          }
+
+          //https://kiranworkspace.com/ellipsis-to-multiline-text-in-css/
+          //
+          //https://css-tricks.com/line-clampin/#the-standardized-way
+          .card-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            word-wrap: break-word;
           }
         }
       }

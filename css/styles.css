@@ -260,7 +260,7 @@ footer {
   border-radius: 0.375rem;
   background-color: #fff;
   display: flex;
-  font-size: 0.65rem;
+  font-size: 0.8rem;
 }
 .gallery .cards .card-holder .card .image-holder {
   position: relative;
@@ -293,6 +293,15 @@ footer {
 }
 .gallery .cards .card-holder .card .card-body .card-title {
   color: #3eb489;
+}
+.gallery .cards .card-holder .card .card-body .card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
 }
 .gallery .cards .card-holder .button-holder {
   display: flex;

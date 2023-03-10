@@ -7,7 +7,9 @@ const renderQuote = (quote) => `
         </div>
         <figcaption class="card-body">
           <h1 class="card-title">${quote.author}</h1>
-          ${quote.text}          
+          <p class="card-text">
+            ${quote.text}
+          </p>
         </figcaption>
       </figure>
       <div class="button-holder">
